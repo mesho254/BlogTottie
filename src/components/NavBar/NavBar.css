@@ -1,0 +1,133 @@
+.navbar{
+    background-color: #f3ecf3;
+    border-bottom: 1px solid #eae3ea;
+    margin-bottom: 1vh;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar .container .navbar-brand{
+        font-size: 1.5rem;
+    }
+    .navbar .container .navbar-collapse form input{
+        width: 25vw;
+    }
+    .navbar .container .navbar-collapse .login{
+        width: 10vw;
+    }
+    .navbar .container .navbar-collapse .signup{
+        width: 10vw;
+
+    }
+    .navbar .container .navbar-collapse .new-post{
+        margin-right: 0.5vw;
+    }
+    .navbar{
+        margin-bottom: 0.5vh;
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar .container .navbar-brand{
+        font-size: 1.2rem;
+    }
+    .navbar .container .navbar-collapse form input{
+        width: 30vw;
+    }
+    .navbar .container .navbar-collapse .login{
+        width: 15vw;
+    }
+    .navbar .container .navbar-collapse .signup{
+        width: 15vw;
+    }
+    .navbar .container .navbar-collapse .new-post{
+        margin-right: 0.5vw;
+    }
+    .navbar{
+        margin-bottom: 0.5vh;
+        width: 100vw;
+    }
+    .me-2{
+        margin-right: 20vw;
+    }
+}
+
+
+.navbar .container .navbar-brand{
+    font-size: 1.8rem;
+    color: #3e3653e4;
+    font-weight:bolder;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.navbar .container .navbar-collapse form input{
+    border: 1px solid #c8bfce;
+    background-color: #2e2d2e;
+    width: 18vw;
+    color: #ffffff;
+    margin-left: 2vw;
+}
+
+.navbar .container .navbar-collapse form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .container .navbar-collapse form button{
+    background-color: #e2c7f0;
+    border-radius: 50%;
+}
+
+.navbar .container .navbar-collapse form button:hover{
+    background-color: #d99afd;
+   
+}
+
+.navbar .container .navbar-collapse .new-post{
+    background-color: #9f9ca0;
+    border-radius: 8px;
+    margin-right: 1vw;
+}
+
+.navbar .container .navbar-collapse .new-post:hover{
+    background-color: #16101a;
+}
+
+.navbar .container .navbar-collapse .user-icon{
+    background-color: #2e2d2e;
+    border: 2px solid #a6a5a7;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .container .navbar-collapse .user-icon:hover{
+    transform: scale(1.05);
+}
+
+.navbar .container .navbar-collapse .dropdown-toggle::after {
+    display: none;
+}
+
+.navbar .container .navbar-collapse .login{
+    background-color: #0c0a0db1;
+    width: 7vw;
+    border-radius: 8px;
+    margin-right: 1vw;
+}
+
+.navbar .container .navbar-collapse .login:hover{
+    background-color: #211229;
+}
+
+.navbar .container .navbar-collapse .signup{
+    background-color: #0c0a0db1;
+    width: 7vw;
+    border-radius: 8px;
+    margin-right: 1vw;
+}
+
+.navbar .container .navbar-collapse .signup:hover{
+    background-color: #211229;
+}
